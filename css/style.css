@@ -1,0 +1,25 @@
+body{
+    padding: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    background: yellow;
+}
+
+section{
+    width: 100%;
+    height: 900px;
+    background: white;
+}
+
+.contenedor__navbar
+{
+    margin: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display: inline-block
+}
