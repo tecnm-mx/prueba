@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
     padding: 0%;
     margin-left: 5%;
@@ -5,6 +7,16 @@ body{
     margin-bottom: 10%;
     margin-top: 5%;
     background: yellow;
+}
+
+.logo{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
 }
 
 section{
@@ -15,11 +27,24 @@ section{
 
 .contenedor__navbar
 {
-    margin: 10%;
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
-nav ul li{
-    display: inline-block
+.contacto{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 30px;
+    height: 30px;
 }
