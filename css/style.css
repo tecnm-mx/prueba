@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto&display=swap');
 
 body{
     padding: 0%;
@@ -12,6 +13,7 @@ body{
 .logo{
     display: flex;
     justify-content:flex-start;
+
 }
 
 .nav{
@@ -28,7 +30,9 @@ section{
 .contenedor__navbar
 {
     display: flex;
+    display: grid;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
 }
 
