@@ -30,7 +30,6 @@ section{
 .contenedor__navbar
 {
     display: flex;
-    display: grid;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -51,4 +50,10 @@ section{
 img{
     width: 30px;
     height: 30px;
+}
+
+.cuerpo__superior{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
